@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(yellow, white, yellow, white);
+    overflow-x: hidden;
+}
+
+.search-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: lightgray;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+    margin-top: -10%;
+}
+
+.search-btn {
+    color: dark grey;
+    float: right;
+    width: 80px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.search-text {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 240px;
+}
+
+.search-box:hover>.search-text {
+    width: 240px;
+    padding: 0 6px;
+}
+
+.search-box:hover>.search-btn {
+    background: white;
+}
+
+.map h1 {
+    font-size: 75px;
+    margin-left: 42%;
+    font-style: inherit;
+}
+
+.map h2 {
+    font-size: 40px;
+    margin-top: 18%;
+    margin-left: 40%;
+    font-style: cursive;
+}
+
+.map p {
+    margin-top: 3%;
+    margin-left: 40%;
+    font-style: Comic Sans MS;
+}
+
+.map img {
+    margin-top: 7%;
+    margin-left: 35%;
+}
+
+.map h3 {
+    font-size: 55px;
+    font-style: Apple Chancery, cursive;
+    margin-left: 40%;
+}
+
+.pic a img {
+    border-radius: 50%;
+    margin-left: 20%;
+    border: 5px solid black;
+}
+
+.abc p {
+    transform: translate(-23%, -2446%);
+}
+
+.def p {
+    transform: translate(53%, -2945%);
+}
+
+.ghi p {
+    transform: translate(-20%, -1270%);
+}
+
+.jkl p {
+    transform: translate(54%, -1794%);
+}
+
+.abc h4 {
+    transform: translate(29%, -2300%);
+}
+
+.def h4 {
+    transform: translate(70%, -2800%);
+}
+
+.ghi h4 {
+    transform: translate(29%, -1100%);
+}
+
+.jkl h4 {
+    transform: translate(74%, -1650%);
+}

@@ -1,0 +1,235 @@
+            body {
+                margin: 0;
+                padding: 0;
+                overflow-x: hidden;
+                background-image: linear-gradient(lightyellow, white);
+            }
+            
+            .search-box {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background: lightgrey;
+                height: 40px;
+                border-radius: 40px;
+                padding: 10px;
+                margin-top: -15%;
+            }
+            
+            .search-btn {
+                color: light grey;
+                float: right;
+                width: 80px;
+                height: 30px;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;
+            }
+            
+            .search-text {
+                border: none;
+                background: none;
+                outline: none;
+                float: left;
+                padding: 0;
+                color: white;
+                font-size: 16px;
+                transition: 0.4s;
+                line-height: 35px;
+                width: 240px;
+            }
+            
+            .search-box:hover>.search-text {
+                width: 240px;
+                padding: 0 6px;
+            }
+            
+            .search-box:hover>.search-btn {
+                background: white;
+            }
+            
+            .icon {
+                width: 100%;
+                background-color: lightyellow;
+                overflow: auto;
+            }
+            
+            .icon a {
+                float: left;
+                text-align: center;
+                width: 50%;
+                color: black;
+                font-size: 40px;
+                margin-top: 15%;
+                padding: 15px 0;
+                transition: all 0.3s ease;
+            }
+            
+            .icon a:hover {
+                background-color: white;
+            }
+            
+            .t h3 {
+                margin-left: 29%;
+                margin-top: -4%;
+            }
+            
+            .t h4 {
+                font-size: 130%;
+                margin-left: 80%;
+                margin-top: -3%;
+            }
+            
+            .t img {
+                margin-left: 29%;
+                width: 600px;
+                height: 240px;
+                margin-top: 4%;
+                border-radius: 7%;
+            }
+            
+            .b button {
+                background-color: yellow;
+                border: none;
+                color: black;
+                padding: 13px 30px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+                transform: translate(280%, -400%);
+                transition-duration: 0.4s;
+                border-radius: 25px;
+            }
+            
+            .b button:hover {
+                background-color: #fff;
+                color: black;
+            }
+            
+            .b1 button {
+                background-color: yellow;
+                border: none;
+                color: black;
+                padding: 13px 30px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+                transform: translate(800%, -520%);
+                transition-duration: 0.4s;
+                border-radius: 25px;
+            }
+            
+            .b1 button:hover {
+                background-color: #fff;
+                color: black;
+            }
+            
+            .b1 h1 {
+                font-size: 70px;
+                margin-left: 35%;
+                margin-top: -7%;
+            }
+            
+            .b1 h4 {
+                font-size: 30px;
+                margin-left: 53%;
+                margin-top: -7.5%;
+                color: grey;
+            }
+            
+            .time h2 {
+                background-color: yellow;
+                color: black;
+                padding: 150px 50px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 20px 400px;
+                cursor: pointer;
+                border: none;
+            }
+            
+            .time i {
+                transform: translate(-1110%, -193%);
+                font-size: 42px;
+            }
+            
+            .time h3 {
+                font-size: 30px;
+                background-color: black;
+                border: none;
+                color: white;
+                padding: 13px 30px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                cursor: pointer;
+                border-radius: 25px;
+                transform: translate(-616px, 50px);
+                transition-duration: 0.4s;
+            }
+            
+            .time h3:hover {
+                background-color: #fff;
+                color: black;
+            }
+            
+            .comedy h2 {
+                background-color: yellow;
+                color: black;
+                padding: 150px 50px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                cursor: pointer;
+                border: none;
+                transform: translate(800px, -360px);
+                position: relative;
+            }
+            
+            .comedy i {
+                transform: translate(669px, -430px);
+                font-size: 50px;
+            }
+            
+            .comedy h3 {
+                font-size: 30px;
+                background-color: black;
+                border: none;
+                color: white;
+                padding: 13px 30px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                cursor: pointer;
+                border-radius: 25px;
+                position: relative;
+                transform: translate(584px, -310px);
+                transition-duration: 0.4s;
+            }
+            
+            .new img {
+                margin-left: 29%;
+                width: 600px;
+                height: 240px;
+                margin-top: -30%;
+                border-radius: 7%;
+            }
+            
+            .comedy h3:hover {
+                background-color: #fff;
+                color: black;
+            }
